@@ -1,5 +1,6 @@
 import Content from '@/components/Content';
 import Hero from '@/components/Hero';
+import Marquee from '@/components/Marquee';
 import Navbar from '@/components/Navbar';
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
    
       <Hero />
       <Content/>
+      <Marquee/>
     </div>
   );
 }

@@ -99,15 +99,17 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="bg-lime-100 mx-40 rounded-xl   border flex gap-24 py-8 px-10  ">
+      <div className="bg-lime-100 mx-40 rounded-xl   border flex gap-24 py-8 px-10 shadow-lg shadow-b ">
         <div>
-          <h2 className='font-bold text-4xl text-gray-900'>Are You a Tutor or a Test Prep Institute?</h2>
-          <p className='text-purple-950 text-lg pt-4 max-w-3xl'> 
+          <h2 className="font-bold text-4xl text-gray-900">
+            Are You a Tutor or a Test Prep Institute?
+          </h2>
+          <p className="text-purple-950 text-lg pt-4 max-w-3xl">
             Give your students a Duolingo-like platform for the SAT with
             Shopify-like customization for tutors and test prep institutes.
           </p>
         </div>
-        <div className='flex items-center justify-center'>
+        <div className="flex items-center justify-center">
           <button className=" mt-4 bg-white border-2 border-indigo-950 font-bold text-lg py-3 px-8 rounded-full mr-4 hover:text-purple-800 hover:border-purple-800">
             Book Free Demo
           </button>
