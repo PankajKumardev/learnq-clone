@@ -103,7 +103,7 @@ const Content = () => {
                         Shopify-like customization for tutors and test prep institutes.
                     </p>
                 </div>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-cente mb-10">
                     <button className="mt-4 bg-white border-2 border-indigo-950 font-bold text-lg py-3 px-8 rounded-full hover:text-purple-800 hover:border-purple-800">
                         Book Free Demo
                     </button>

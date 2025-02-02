@@ -30,7 +30,7 @@ const Hero = () => {
     ];
     return (
         <div className="bg-gradient-to-b from-blue-100 via-blue-50 to-green-100 pt-20 h-full">
-            <div className="flex flex-col lg:flex-row justify-between items-center px-6 lg:px-12">
+            <div className="flex flex-col lg:flex-row justify-between items-center px-6 lg:px-40 ">
                 <div className="pt-10 lg:pt-20 text-center lg:text-left">
                     <div className="flex flex-col gap-2">
                         <h2 className="text-3xl lg:text-5xl font-bold tracking-normal">

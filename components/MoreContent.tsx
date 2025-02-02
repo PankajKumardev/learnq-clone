@@ -3,7 +3,7 @@ import React from 'react';
 const MoreContent = () => {
     return (
         <div>
-            <div className="flex flex-col justify-center mt-20 items-center gap-4 px-4 md:px-0">
+            <div className="flex flex-col justify-center mt-20 items-center gap-4 px-4 md:px-0 ">
                 <div className="bg-emerald-100 rounded-full px-4 py-1 font-semibold text-lg text-center">
                     GEN-AI Digital SAT Platform
                 </div>
