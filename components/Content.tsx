@@ -33,6 +33,34 @@ const Content = () => {
           </button>
         </div>
       </div>
+      <div className="flex justify-center gap-20 mt-40">
+        <div className="max-w-xl gap-2">
+          <h2 className="text-4xl font-bold text-gray-900">
+            <span className="text-blue-500">Boost Your Digital SAT Score</span>{' '}
+            and
+          </h2 >
+          <h2 className='text-4xl font-bold text-gray-900 pt-1 mb-4'>Save Big with LearnQ.ai?</h2>
+          <h2 className="text-2xl font-semibold text-gray-900">
+            - Expert Insights from Ritesh Verma
+          </h2>
+          <p className="text-gray-500 text-lg pt-4">
+            Discover how Ritesh Verma uses LearnQ’s smart tools and AI to help
+            students ace the Digital SAT.
+          </p>
+
+          <button className="mt-4 bg-white border-2 border-indigo-950 font-bold text-lg py-2 px-8 rounded-full hover:text-purple-800 hover:border-purple-800">
+            Try LearnQ.ai
+          </button>
+        </div>
+
+        <div>
+          <img
+            src="https://framerusercontent.com/images/hfTIDuYAdxBXzQL5rLQH1J2Zg.webp?scale-down-to=512"
+            alt=""
+            className="h-80  rounded-xl"
+          />
+        </div>
+      </div>
     </div>
   );
 };

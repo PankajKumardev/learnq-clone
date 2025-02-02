@@ -79,7 +79,7 @@ const Hero = () => {
           </div>
         ))}
       </div>
-      <Content/>
+    
     </div>
   );
 };
