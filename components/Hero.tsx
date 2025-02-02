@@ -1,4 +1,5 @@
 import React from 'react';
+import Content from './Content';
 
 const Hero = () => {
   const text = [
@@ -29,7 +30,7 @@ const Hero = () => {
     },
   ];
   return (
-    <div className="bg-gradient-to-b from-blue-100 via-blue-50 to-green-100  pt-28 h-full ">
+    <div className="bg-gradient-to-b from-blue-100 via-blue-50 to-green-100  pt-20 h-full ">
       <div className="flex justify-between px-12">
         <div className="pt-20">
           <div className="flex flex-col gap-2">
@@ -67,7 +68,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center mt-20  py-8 rounded-lg  mx-12 gap-12 text-center">
+      <div className="flex justify-center mt-16  py-8 rounded-lg  mx-12 gap-12 text-center">
         {text.map((item, index) => (
           <div key={index} className="text-center flex flex-col gap-1">
             <h2 className="text-5xl font-bold text-indigo-950">{item.title}</h2>
@@ -78,6 +79,7 @@ const Hero = () => {
           </div>
         ))}
       </div>
+      <Content/>
     </div>
   );
 };
